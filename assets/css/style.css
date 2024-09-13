@@ -581,6 +581,9 @@ small {
   #education .container {
     width: 860px;
   }
+  #etc .container {
+    width: 860px;
+  }
 }
 
 @media (max-width: 1360px) {
