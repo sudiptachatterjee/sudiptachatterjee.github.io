@@ -82,6 +82,12 @@
         </a>
       </li>
       <li class="bold">
+        <a aria-label="Navigate to the What's New section" href="#new" class="waves-effect waves-dark teal-text">
+          <i class="mdi-action-info-outline small"></i>
+          <span>What's New</span>
+        </a>
+      </li>
+      <li class="bold">
         <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text">
           <i class="mdi-social-person small"></i>
           <span>About</span>
@@ -150,6 +156,12 @@
   <!-- Nav class 3 -->
   <nav class="hide-on-large only">
     <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the What's New section" href="#new" class="waves-effect waves-dark teal-text">
+          <i class="mdi-action-info-outline small"></i>
+          <span>What's new</span>
+        </a>
+      </li>
       <li class="bold">
         <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text">
           <i class="mdi-social-person small"></i>
@@ -241,6 +253,100 @@
         </div>
       </div>
     </section>
+
+    <!-- Zeroth & Sixth Section: What's New -->
+    <section id="new" class="section scrollspy">
+      <h3 class="page-title white-text teal">What's New</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Reading Now -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div style="display: flex; justify-content: space-between;">
+                  <img alt="So Good They Can't Ignore You" src="/assets/img/sgtciy.jpeg" style="width: 48%;"
+                    class="activator">
+                  <img alt="When We Cease to Understand the World" src="/assets/img/wwctutw.jpeg" style="width: 48%;"
+                    class="activator">
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Reading Now
+                  <i class="mdi-navigation-more-vert right"></i>
+                </span>
+                <p>
+                  Cal Newport because I am a fan, and Benjamin Labatut because I am curious
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text">
+                  <small>Details</small>
+                  <i class="mdi-navigation-close right"></i>
+                </span>
+                <ul>
+                  <li>So Good They Can't Ignore You (Cal Newport): liking it so far, especially the iconoclast arguments
+                    and advice</li>
+                  <li>When We Cease to Understand the World (Benjamin Labatut): more poetry about science and quirky
+                    humans, but a good read</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Find `So Good They Can't Ignore You` on Amazon"
+                    href="https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124/" target="_blank"
+                    data-position="top" data-tooltip="Find `So Good They Can't Ignore You` on Amazon"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa fa-book"></i>
+                  </a>
+                  <a aria-label="Find `When We Cease to Understand the World` on Amazon"
+                    href="https://www.amazon.com/When-We-Cease-Understand-World/dp/1681375664" target="_blank"
+                    data-position="top" data-tooltip="Find `When We Cease to Understand the World` on Amazon"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa fa-book"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Latest Creative Work -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Bay Area Drama Company"
+                  src="https://images.squarespace-cdn.com/content/v1/54011cede4b0f72d40b6bc17/1418834516800-NB03YP2TEKH441H14OP6/image-asset.jpeg?format=640w"
+                  style="height: 100%; width: 100%" class="activator">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">My Next Drama
+                  <i class="mdi-navigation-more-vert right"></i>
+                </span>
+                <p>
+                  I am playing Devraj Sarthi, in the play Bhopal by Rahul Varma, directed by Basab Pradhan.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text">
+                  <small>Details</small>
+                  <i class="mdi-navigation-close right"></i>
+                </span>
+                <ul>
+                  <li>On the night of December 3rd 1984, Union Carbide's pesticide plant in Bhopal, India, exploded,
+                    engulfing the city in a billow of deadly poisonous fumes</li>
+                  <li>The show runs from December 3rd - December 8th, 2024</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Tickets for my next play" href="https://bayareadrama.company" target="_blank"
+                    data-position="top" data-tooltip="Buy tickets, watch me live on stage, and support local theater"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa fa-tickets"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ************* -->
+      </div>
+    </section>
+
     <!-- Second Section: About -->
     <section id="about" class="section scrollspy">
       <h3 class="page-title white-text teal">About</h3>
@@ -314,6 +420,7 @@
         </p>
       </div>
     </section>
+
     <!-- Third Section: Experience -->
     <section id="experience" class="section scrollspy">
       <h3 class="page-title white-text teal">Experience</h3>
@@ -572,7 +679,6 @@
                     class="responsive-img center-block">
                 </a>
               </div>
-              <!-- <div class="col s12 m10"> -->
               <div class="col s12 m10">
                 <p>
                   <span class="card-title">
@@ -729,7 +835,8 @@
         </div>
       </div>
     </section>
-    <!-- Sixth Section: Etc -->
+
+    <!-- Seventh Section: Etc -->
     <section id="etc" class="section scrollspy">
       <h3 class="page-title white-text teal">Et Cetera</h3>
       <div class="container">
@@ -874,7 +981,7 @@
       </div>
     </section>
 
-    <!-- Seventh Section: Skills -->
+    <!-- Eighth Section: Skills -->
     <section id="skills" class="section scrollspy">
       <h3 class="page-title white-text teal">Skills</h3>
       <div class="container">
@@ -1013,7 +1120,8 @@
         </div>
       </div>
     </section>
-    <!-- Seventh Section: Contact -->
+
+    <!-- Ninth Section: Contact -->
     <section id="contact" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
