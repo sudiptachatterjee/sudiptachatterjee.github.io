@@ -2,19 +2,19 @@
 # Fill in the details below and run: python3 scripts/update-reading.py
 
 books:
-  - title: "The River of Silver"
-    author: "S. A. Chakraborty"
-    image: "river_of_silver.jpg"
-    buy_url: "https://www.harpercollins.com/products/the-river-of-silver-s-a-chakraborty"
-    buy_label: "Harper Voyager Books"
-    description: "when the outtakes are equally engaging and unputdownable!"
+  - title: "The Emperor's Soul"
+    author: "Brandon Sanderson"
+    image: "The_Emperors_Soul.jpg"
+    buy_url: "https://www.audible.com/pd/The-Emperors-Soul-Audiobook/B009XEKR3O"
+    buy_label: "Audible"
+    description: "because now the audiobook version makes it easy to revisit"
 
-  - title: "The Man from the Future"
-    author: "Ananyo Bhattacharya"
-    image: "man_from_the_future.jpg"
-    buy_url: "https://www.amazon.com/Man-Future-Visionary-Ideas-Neumann/dp/1324050500/"
-    buy_label: "Amazon"
-    description: "what a legend to learn about!"
+  - title: "The Honeymoon Effect"
+    author: "Bruce Lipton"
+    image: "honeymoon_effect.jpeg"
+    buy_url: "https://www.penguinrandomhouse.com/books/601212/the-honeymoon-effect-by-bruce-h-lipton-phd/"
+    buy_label: "Penguin Random House"
+    description: "came recommended by a friend who really dislikes self help books"
 
 # Summary shown on the card (one-liner)
-summary: "The River of Silver (S. A. Chakraborty), and The Man from the Future: The Visionary Ideas of John von Neumann."
+summary: "The Emperor's Soul: my intro to Brandon Sanderson, and The Honeymoon Effect: because who couldn't use a little leg up in life"

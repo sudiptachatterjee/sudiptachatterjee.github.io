@@ -27,10 +27,13 @@ def parse_yaml(filepath):
 
     result = {"books": [], "summary": ""}
 
-    # Extract summary
-    summary_match = re.search(r'^summary:\s*["\'](.+?)["\']', content, re.MULTILINE)
+    # Extract summary - handle quoted or unquoted, including apostrophes
+    summary_match = re.search(r'^summary:\s*"(.+)"$', content, re.MULTILINE)
+    if not summary_match:
+        # Try unquoted (rest of line after "summary: ")
+        summary_match = re.search(r'^summary:\s*(.+)$', content, re.MULTILINE)
     if summary_match:
-        result["summary"] = summary_match.group(1)
+        result["summary"] = summary_match.group(1).strip()
 
     # Extract books
     book_blocks = re.split(r'\n\s*-\s+title:', content)[1:]
@@ -39,13 +42,17 @@ def parse_yaml(filepath):
         # Add back "title:" that was used as delimiter
         block = "title:" + block
 
-        # Parse each field
+        # Parse each field - try double-quoted first, then unquoted
         for field in ["title", "author", "image", "buy_url", "buy_label", "description"]:
-            pattern = rf'{field}:\s*["\']?(.*?)["\']?\s*(?:\n|$)'
+            # Try double-quoted value first (handles apostrophes)
+            pattern = rf'{field}:\s*"(.+)"'
             match = re.search(pattern, block)
+            if not match:
+                # Fall back to unquoted (rest of line)
+                pattern = rf'{field}:\s*(.+?)(?:\n|$)'
+                match = re.search(pattern, block)
             if match:
-                value = match.group(1).strip().strip('"').strip("'")
-                book[field] = value
+                book[field] = match.group(1).strip()
             else:
                 book[field] = ""
 

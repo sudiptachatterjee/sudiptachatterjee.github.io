@@ -265,9 +265,9 @@
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <div style="display: flex; justify-content: space-between;">
-                  <img alt="The River of Silver" src="/assets/img/river_of_silver.jpg" style="width: 48%;"
+                  <img alt="The Emperor's Soul" src="/assets/img/The_Emperors_Soul.jpg" style="width: 48%;"
                     class="activator">
-                  <img alt="The Man from the Future" src="/assets/img/man_from_the_future.jpg"
+                  <img alt="The Honeymoon Effect" src="/assets/img/honeymoon_effect.jpeg"
                     style="width: 48%;" class="activator">
                 </div>
               </div>
@@ -276,7 +276,7 @@
                   <i class="mdi-navigation-more-vert right"></i>
                 </span>
                 <p>
-                  The River of Silver (S. A. Chakraborty), and The Man from the Future: The Visionary Ideas of John von Neumann.
+                  The Emperor's Soul, and The Honeymoon Effect.
                 </p>
               </div>
               <div class="card-reveal">
@@ -285,19 +285,19 @@
                   <i class="mdi-navigation-close right"></i>
                 </span>
                 <ul>
-                  <li>The River of Silver (S. A. Chakraborty): when the outtakes are equally engaging and unputdownable!</li>
-                  <li>The Man from the Future (Ananyo Bhattacharya): what a legend to learn about!</li>
+                  <li>The Emperor's Soul (Brandon Sanderson): because now the audiobook version makes it easy to revisit</li>
+                  <li>The Honeymoon Effect (Bruce Lipton): came recommended by a friend who really dislikes self help books</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Find `The River of Silver` on Harper Voyager Books"
-                    href="https://www.harpercollins.com/products/the-river-of-silver-s-a-chakraborty" target="_blank"
-                    data-position="top" data-tooltip="Find `The River of Silver` on Harper Voyager Books"
+                  <a aria-label="Find `The Emperor's Soul` on Audible"
+                    href="https://www.audible.com/pd/The-Emperors-Soul-Audiobook/B009XEKR3O" target="_blank"
+                    data-position="top" data-tooltip="Find `The Emperor's Soul` on Audible"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
                     <i class="fa fa-book"></i>
                   </a>
-                  <a aria-label="Find `The Man from the Future` on Amazon"
-                    href="https://www.amazon.com/Man-Future-Visionary-Ideas-Neumann/dp/1324050500/" target="_blank"
-                    data-position="top" data-tooltip="Find `The Man from the Future` on Amazon"
+                  <a aria-label="Find `The Honeymoon Effect` on Penguin Random House"
+                    href="https://www.penguinrandomhouse.com/books/601212/the-honeymoon-effect-by-bruce-h-lipton-phd/" target="_blank"
+                    data-position="top" data-tooltip="Find `The Honeymoon Effect` on Penguin Random House"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
                     <i class="fa fa-book"></i>
                   </a>
