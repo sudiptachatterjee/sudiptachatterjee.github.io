@@ -1,0 +1,20 @@
+# Book update configuration
+# Fill in the details below and run: python3 scripts/update-reading.py
+
+books:
+  - title: "The River of Silver"
+    author: "S. A. Chakraborty"
+    image: "river_of_silver.jpg"
+    buy_url: "https://www.harpercollins.com/products/the-river-of-silver-s-a-chakraborty"
+    buy_label: "Harper Voyager Books"
+    description: "when the outtakes are equally engaging and unputdownable!"
+
+  - title: "The Man from the Future"
+    author: "Ananyo Bhattacharya"
+    image: "man_from_the_future.jpg"
+    buy_url: "https://www.amazon.com/Man-Future-Visionary-Ideas-Neumann/dp/1324050500/"
+    buy_label: "Amazon"
+    description: "what a legend to learn about!"
+
+# Summary shown on the card (one-liner)
+summary: "The River of Silver (S. A. Chakraborty), and The Man from the Future: The Visionary Ideas of John von Neumann."
