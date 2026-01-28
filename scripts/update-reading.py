@@ -174,7 +174,7 @@ def main():
     print()
     print("Next steps:")
     print("  1. Review the changes: git diff index.html")
-    print("  2. Test locally: npm start")
+    print("  2. Test locally: serve .")
     title = data["books"][0]["title"] if data["books"] else "update"
     print(f'  3. Commit: git add . && git commit -m "Reading: {title}"')
 

@@ -2,12 +2,12 @@
 # Fill in the details below and run: python3 scripts/update-reading.py
 
 books:
-  - title: "The Emperor's Soul"
-    author: "Brandon Sanderson"
-    image: "The_Emperors_Soul.jpg"
-    buy_url: "https://www.audible.com/pd/The-Emperors-Soul-Audiobook/B009XEKR3O"
-    buy_label: "Audible"
-    description: "because now the audiobook version makes it easy to revisit"
+  - title: "What the Butler Saw"
+    author: "Joe Orton"
+    image: "what_the_butler_saw.jpg"
+    buy_url: "https://www.concordtheatricals.com/s/2400/what-the-butler-saw"
+    buy_label: "Samuel French"
+    description: "was looking for farces and this came highly recommended"
 
   - title: "The Honeymoon Effect"
     author: "Bruce Lipton"
@@ -17,4 +17,4 @@ books:
     description: "came recommended by a friend who really dislikes self help books"
 
 # Summary shown on the card (one-liner)
-summary: "The Emperor's Soul: my intro to Brandon Sanderson, and The Honeymoon Effect: because who couldn't use a little leg up in life"
+summary: "What the Butler Saw: a raunchy comedy that I look forward to seeing live some day, and The Honeymoon Effect: because who couldn't use a little leg up in life"
