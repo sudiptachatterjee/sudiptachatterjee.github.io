@@ -4,7 +4,9 @@ update-reading.py - Update the "Reading Now" section of your website
 
 Usage:
     1. Edit reading.yaml with your book details
-    2. Place book cover image(s) in assets/img/
+    2. For the image field, you can either:
+       - Provide a direct URL (e.g., "https://example.com/cover.jpg")
+       - Provide a filename and place the image in assets/img/
     3. Run: python3 update-reading.py
 
 Supports 1 or 2 books in the "Reading Now" card.
@@ -61,6 +63,13 @@ def parse_yaml(filepath):
     return result
 
 
+def get_image_src(image_value):
+    """Return the appropriate image src - direct URL if provided, otherwise local path."""
+    if image_value.startswith(('http://', 'https://')):
+        return image_value
+    return f"/assets/img/{image_value}"
+
+
 def generate_html(data):
     """Generate the Reading Now card HTML."""
     books = data["books"]
@@ -69,13 +78,16 @@ def generate_html(data):
 
     # Build image section
     if num_books == 1:
-        image_html = f'''<img alt="{books[0]['title']}" src="/assets/img/{books[0]['image']}" style="width: 100%;"
+        image_src = get_image_src(books[0]['image'])
+        image_html = f'''<img alt="{books[0]['title']}" src="{image_src}" style="width: 100%;"
                     class="activator">'''
     else:
+        image_src_0 = get_image_src(books[0]['image'])
+        image_src_1 = get_image_src(books[1]['image'])
         image_html = f'''<div style="display: flex; justify-content: space-between;">
-                  <img alt="{books[0]['title']}" src="/assets/img/{books[0]['image']}" style="width: 48%;"
+                  <img alt="{books[0]['title']}" src="{image_src_0}" style="width: 48%;"
                     class="activator">
-                  <img alt="{books[1]['title']}" src="/assets/img/{books[1]['image']}"
+                  <img alt="{books[1]['title']}" src="{image_src_1}"
                     style="width: 48%;" class="activator">
                 </div>'''
 

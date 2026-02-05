@@ -1,20 +1,23 @@
 # Book update configuration
 # Fill in the details below and run: python3 scripts/update-reading.py
+# For the image field, you can provide either:
+#   - A direct URL (e.g., "https://example.com/cover.jpg")
+#   - A filename (e.g., "book_cover.jpg") if you place it in assets/img/
 
 books:
-  - title: "What the Butler Saw"
-    author: "Joe Orton"
-    image: "what_the_butler_saw.jpg"
-    buy_url: "https://www.concordtheatricals.com/s/2400/what-the-butler-saw"
-    buy_label: "Samuel French"
-    description: "was looking for farces and this came highly recommended"
+  - title: "The ADHD Effect on Marriage"
+    author: "Melissa Orlov"
+    image: "https://m.media-amazon.com/images/I/61r2zexsi2L._AC_UF1000,1000_QL80_.jpg"
+    buy_url: "https://www.amazon.com/ADHD-Effect-Marriage-Understand-Relationship/dp/1886941971"
+    buy_label: "Amazon"
+    description: "recommended by the Internet Dad, Allie Ward!"
 
-  - title: "The Honeymoon Effect"
-    author: "Bruce Lipton"
-    image: "honeymoon_effect.jpeg"
-    buy_url: "https://www.penguinrandomhouse.com/books/601212/the-honeymoon-effect-by-bruce-h-lipton-phd/"
-    buy_label: "Penguin Random House"
-    description: "came recommended by a friend who really dislikes self help books"
+  - title: "The Color of Magic"
+    author: "Terry Pratchett"
+    image: "https://m.media-amazon.com/images/I/91eTcsbExtL._AC_UF1000,1000_QL80_.jpg"
+    buy_url: "https://www.amazon.com/Colour-Magic-Discworld-Novels/dp/086140324X"
+    buy_label: "Amazon"
+    description: "because Terry Pratchett has been on my reading list forever"
 
 # Summary shown on the card (one-liner)
-summary: "What the Butler Saw: a raunchy comedy that I look forward to seeing live some day, and The Honeymoon Effect: because who couldn't use a little leg up in life"
+summary: "The Color of Magic: to dive into a new universe, and the ADHD effect to double check confirmation bias"
