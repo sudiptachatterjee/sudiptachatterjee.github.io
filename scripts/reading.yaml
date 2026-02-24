@@ -5,12 +5,12 @@
 #   - A filename (e.g., "book_cover.jpg") if you place it in assets/img/
 
 books:
-  - title: "The ADHD Effect on Marriage"
-    author: "Melissa Orlov"
-    image: "https://m.media-amazon.com/images/I/61r2zexsi2L._AC_UF1000,1000_QL80_.jpg"
-    buy_url: "https://www.amazon.com/ADHD-Effect-Marriage-Understand-Relationship/dp/1886941971"
-    buy_label: "Amazon"
-    description: "recommended by the Internet Dad, Allie Ward!"
+  - title: "A Brief History of Intelligence"
+    author: "Max Bennett"
+    image: "https://images-na.ssl-images-amazon.com/images/I/81XzR2xGLFL._AC_UL600_SR600,600_.jpg"
+    buy_url: "https://www.harpercollins.com/products/a-brief-history-of-intelligence-max-s-bennett?variant=41160399323170"
+    buy_label: "Harper Collins"
+    description: "recommended by not sure who, but thoroughly enjoying so far"
 
   - title: "One Hundred Years of Solitude"
     author: "Gabriel Garcia Marquez"
@@ -20,4 +20,4 @@ books:
     description: "magic realism FTW!"
 
 # Summary shown on the card (one-liner)
-summary: "One Hundred Years of Solitude come very very highly recommended, and the ADHD effect to double check confirmation bias"
+summary: "One Hundred Years of Solitude comes very very highly recommended, and I am grateful to whoever recommended A Brief History of Intelligence"
